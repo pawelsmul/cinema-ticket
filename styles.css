@@ -1,0 +1,70 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+}
+
+.wrapper {
+    width: 787px;
+    height: 273px;
+    background-color: #EFC684;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.left-box {
+    width: 26%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.ticket-name {
+    font-size: 55px;
+    font-weight: 400;
+    display: flex;
+}
+
+.left-top {
+    display: flex;
+}
+
+.left-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-box {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.place-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-box {
+    width: 30%;
+    height: 100%;
+    border-left: 2px dashed red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px 25px 10px 25px;
+}
+
+.center-row {
+    border-bottom: black solid 1px;
+}
